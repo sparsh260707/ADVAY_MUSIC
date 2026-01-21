@@ -1,8 +1,8 @@
-from SHUKLAMUSIC.core.bot import SHUKLA
-from SHUKLAMUSIC.core.dir import dirr
-from SHUKLAMUSIC.core.git import git
-from SHUKLAMUSIC.core.userbot import Userbot
-from SHUKLAMUSIC.misc import dbb, heroku
+from AdvayxMusic.core.bot import SHUKLA
+from AdvayxMusic.core.dir import dirr
+from AdvayxMusic.core.git import git
+from AdvayxMusic.core.userbot import Userbot
+from AdvayxMusic.misc import dbb, heroku
 
 from SafoneAPI import SafoneAPI
 from .logging import LOGGER

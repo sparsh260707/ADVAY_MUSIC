@@ -1,9 +1,9 @@
 from pyrogram import filters
 
-from SHUKLAMUSIC import app
-from SHUKLAMUSIC.misc import SUDOERS
-from SHUKLAMUSIC.utils.database import add_off, add_on
-from SHUKLAMUSIC.utils.decorators.language import language
+from AdvayxMusic import app
+from AdvayxMusic.misc import SUDOERS
+from AdvayxMusic.utils.database import add_off, add_on
+from AdvayxMusic.utils.decorators.language import language
 
 
 @app.on_message(filters.command(["logger"]) & SUDOERS)

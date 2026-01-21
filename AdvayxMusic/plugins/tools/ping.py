@@ -3,11 +3,11 @@ from datetime import datetime
 from pyrogram import filters
 from pyrogram.types import Message
 
-from SHUKLAMUSIC import app
-from SHUKLAMUSIC.core.call import SHUKLA
-from SHUKLAMUSIC.utils import bot_sys_stats
-from SHUKLAMUSIC.utils.decorators.language import language
-from SHUKLAMUSIC.utils.inline import supp_markup
+from AdvayxMusic import app
+from AdvayxMusic.core.call import SHUKLA
+from AdvayxMusic.utils import bot_sys_stats
+from AdvayxMusic.utils.decorators.language import language
+from AdvayxMusic.utils.inline import supp_markup
 from config import BANNED_USERS, PING_IMG_URL
 
 

@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from SHUKLAMUSIC import YouTube, app
-from SHUKLAMUSIC.core.call import SHUKLA
-from SHUKLAMUSIC.misc import db
-from SHUKLAMUSIC.utils import AdminRightsCheck, seconds_to_min
-from SHUKLAMUSIC.utils.inline import close_markup
+from AdvayxMusic import YouTube, app
+from AdvayxMusic.core.call import SHUKLA
+from AdvayxMusic.misc import db
+from AdvayxMusic.utils import AdminRightsCheck, seconds_to_min
+from AdvayxMusic.utils.inline import close_markup
 from config import BANNED_USERS
 
 

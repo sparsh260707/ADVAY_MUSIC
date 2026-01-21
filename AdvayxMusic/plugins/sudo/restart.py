@@ -10,15 +10,15 @@ from git.exc import GitCommandError, InvalidGitRepositoryError
 from pyrogram import filters
 
 import config
-from SHUKLAMUSIC import app
-from SHUKLAMUSIC.misc import HAPP, SUDOERS, XCB
-from SHUKLAMUSIC.utils.database import (
+from AdvayxMusic import app
+from AdvayxMusic.misc import HAPP, SUDOERS, XCB
+from AdvayxMusic.utils.database import (
     get_active_chats,
     remove_active_chat,
     remove_active_video_chat,
 )
-from SHUKLAMUSIC.utils.decorators.language import language
-from SHUKLAMUSIC.utils.pastebin import SHUKLABin
+from AdvayxMusic.utils.decorators.language import language
+from AdvayxMusic.utils.pastebin import SHUKLABin
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 

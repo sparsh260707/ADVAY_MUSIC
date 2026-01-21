@@ -2,9 +2,9 @@ from pykeyboard import InlineKeyboard
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, Message
 
-from SHUKLAMUSIC import app
-from SHUKLAMUSIC.utils.database import get_lang, set_lang
-from SHUKLAMUSIC.utils.decorators import ActualAdminCB, language, languageCB
+from AdvayxMusic import app
+from AdvayxMusic.utils.database import get_lang, set_lang
+from AdvayxMusic.utils.decorators import ActualAdminCB, language, languageCB
 from config import BANNED_USERS
 from strings import get_string, languages_present
 

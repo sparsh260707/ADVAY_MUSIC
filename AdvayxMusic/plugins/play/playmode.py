@@ -1,10 +1,10 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
-from SHUKLAMUSIC import app
-from SHUKLAMUSIC.utils.database import get_playmode, get_playtype, is_nonadmin_chat
-from SHUKLAMUSIC.utils.decorators import language
-from SHUKLAMUSIC.utils.inline.settings import playmode_users_markup
+from AdvayxMusic import app
+from AdvayxMusic.utils.database import get_playmode, get_playtype, is_nonadmin_chat
+from AdvayxMusic.utils.decorators import language
+from AdvayxMusic.utils.inline.settings import playmode_users_markup
 from config import BANNED_USERS
 
 

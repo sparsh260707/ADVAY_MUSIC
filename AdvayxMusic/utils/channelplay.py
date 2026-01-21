@@ -1,5 +1,5 @@
-from SHUKLAMUSIC import app
-from SHUKLAMUSIC.utils.database import get_cmode
+from AdvayxMusic import app
+from AdvayxMusic.utils.database import get_cmode
 
 
 async def get_channeplayCB(_, command, CallbackQuery):

@@ -2,13 +2,13 @@ from pyrogram import filters
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 from pyrogram.types import Message
 from strings import get_string, helpers
-from SHUKLAMUSIC import app
+from AdvayxMusic import app
 from pyrogram.types import InputMediaVideo
-from SHUKLAMUSIC.misc import SUDOERS
-from SHUKLAMUSIC.utils.database import add_sudo, remove_sudo
-from SHUKLAMUSIC.utils.decorators.language import language
-from SHUKLAMUSIC.utils.extraction import extract_user
-from SHUKLAMUSIC.utils.inline import close_markup
+from AdvayxMusic.misc import SUDOERS
+from AdvayxMusic.utils.database import add_sudo, remove_sudo
+from AdvayxMusic.utils.decorators.language import language
+from AdvayxMusic.utils.extraction import extract_user
+from AdvayxMusic.utils.inline import close_markup
 from config import BANNED_USERS, OWNER_ID
 
 

@@ -6,8 +6,8 @@ from typing import Union
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Voice
 
 import config
-from SHUKLAMUSIC import app
-from SHUKLAMUSIC.utils.formatters import (
+from AdvayxMusic import app
+from AdvayxMusic.utils.formatters import (
     check_duration,
     convert_bytes,
     get_readable_time,

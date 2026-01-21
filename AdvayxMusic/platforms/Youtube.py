@@ -24,12 +24,12 @@ from pyrogram.types import Message
 from youtubesearchpython.__future__ import VideosSearch
 from ..utils.database import is_on_off, get_assistant
 from ..utils.formatters import time_to_seconds
-from SHUKLAMUSIC import app
-from SHUKLAMUSIC.core.userbot import assistants
+from AdvayxMusic import app
+from AdvayxMusic.core.userbot import assistants
 import random
 import logging
 import aiohttp
-from SHUKLAMUSIC import LOGGER
+from AdvayxMusic import LOGGER
 from urllib.parse import urlparse
 
 API_BASE_URL = "https://riyabots.site"

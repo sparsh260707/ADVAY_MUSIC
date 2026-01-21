@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from SHUKLAMUSIC import app
-from SHUKLAMUSIC.misc import SUDOERS
-from SHUKLAMUSIC.utils.database import add_gban_user, remove_gban_user
-from SHUKLAMUSIC.utils.decorators.language import language
-from SHUKLAMUSIC.utils.extraction import extract_user
+from AdvayxMusic import app
+from AdvayxMusic.misc import SUDOERS
+from AdvayxMusic.utils.database import add_gban_user, remove_gban_user
+from AdvayxMusic.utils.decorators.language import language
+from AdvayxMusic.utils.extraction import extract_user
 from config import BANNED_USERS
 
 

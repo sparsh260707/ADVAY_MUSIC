@@ -3,8 +3,8 @@ from os import getenv
 from dotenv import load_dotenv
 from pyrogram import filters, Client
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
-from SHUKLAMUSIC import app
-from SHUKLAMUSIC.utils.database import booster
+from AdvayxMusic import app
+from AdvayxMusic.utils.database import booster
 
 load_dotenv()
 

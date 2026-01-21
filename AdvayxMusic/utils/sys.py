@@ -2,8 +2,8 @@ import time
 
 import psutil
 
-from SHUKLAMUSIC.misc import _boot_
-from SHUKLAMUSIC.utils.formatters import get_readable_time
+from AdvayxMusic.misc import _boot_
+from AdvayxMusic.utils.formatters import get_readable_time
 
 
 async def bot_sys_stats():

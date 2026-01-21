@@ -1,8 +1,8 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from SHUKLAMUSIC import app
-from SHUKLAMUSIC.core.call import SHUKLA
+from AdvayxMusic import app
+from AdvayxMusic.core.call import SHUKLA
 
 welcome = 20
 close = 30

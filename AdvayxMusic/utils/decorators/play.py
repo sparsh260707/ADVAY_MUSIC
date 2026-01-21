@@ -9,9 +9,9 @@ from pyrogram.errors import (
 )
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from SHUKLAMUSIC import YouTube, app
-from SHUKLAMUSIC.misc import SUDOERS
-from SHUKLAMUSIC.utils.database import (
+from AdvayxMusic import YouTube, app
+from AdvayxMusic.misc import SUDOERS
+from AdvayxMusic.utils.database import (
     get_assistant,
     get_cmode,
     get_lang,
@@ -20,7 +20,7 @@ from SHUKLAMUSIC.utils.database import (
     is_active_chat,
     is_maintenance,
 )
-from SHUKLAMUSIC.utils.inline import botplaylist_markup
+from AdvayxMusic.utils.inline import botplaylist_markup
 from config import PLAYLIST_IMG_URL, SUPPORT_CHAT, adminlist
 from strings import get_string
 

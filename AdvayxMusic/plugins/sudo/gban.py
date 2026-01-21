@@ -4,10 +4,10 @@ from pyrogram import filters
 from pyrogram.errors import FloodWait
 from pyrogram.types import Message
 
-from SHUKLAMUSIC import app
-from SHUKLAMUSIC.misc import SUDOERS
-from SHUKLAMUSIC.utils import get_readable_time
-from SHUKLAMUSIC.utils.database import (
+from AdvayxMusic import app
+from AdvayxMusic.misc import SUDOERS
+from AdvayxMusic.utils import get_readable_time
+from AdvayxMusic.utils.database import (
     add_banned_user,
     get_banned_count,
     get_banned_users,
@@ -15,8 +15,8 @@ from SHUKLAMUSIC.utils.database import (
     is_banned_user,
     remove_banned_user,
 )
-from SHUKLAMUSIC.utils.decorators.language import language
-from SHUKLAMUSIC.utils.extraction import extract_user
+from AdvayxMusic.utils.decorators.language import language
+from AdvayxMusic.utils.extraction import extract_user
 from config import BANNED_USERS
 
 

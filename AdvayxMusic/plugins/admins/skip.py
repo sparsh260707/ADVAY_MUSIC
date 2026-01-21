@@ -2,14 +2,14 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
-from SHUKLAMUSIC import YouTube, app
-from SHUKLAMUSIC.core.call import SHUKLA
-from SHUKLAMUSIC.misc import db
-from SHUKLAMUSIC.utils.database import get_loop
-from SHUKLAMUSIC.utils.decorators import AdminRightsCheck
-from SHUKLAMUSIC.utils.inline import close_markup, stream_markup
-from SHUKLAMUSIC.utils.stream.autoclear import auto_clean
-from SHUKLAMUSIC.utils.thumbnails import get_thumb
+from AdvayxMusic import YouTube, app
+from AdvayxMusic.core.call import SHUKLA
+from AdvayxMusic.misc import db
+from AdvayxMusic.utils.database import get_loop
+from AdvayxMusic.utils.decorators import AdminRightsCheck
+from AdvayxMusic.utils.inline import close_markup, stream_markup
+from AdvayxMusic.utils.stream.autoclear import auto_clean
+from AdvayxMusic.utils.thumbnails import get_thumb
 from config import BANNED_USERS
 
 

@@ -1,16 +1,16 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from SHUKLAMUSIC import app
-from SHUKLAMUSIC.utils import extract_user, int_to_alpha
-from SHUKLAMUSIC.utils.database import (
+from AdvayxMusic import app
+from AdvayxMusic.utils import extract_user, int_to_alpha
+from AdvayxMusic.utils.database import (
     delete_authuser,
     get_authuser,
     get_authuser_names,
     save_authuser,
 )
-from SHUKLAMUSIC.utils.decorators import AdminActual, language
-from SHUKLAMUSIC.utils.inline import close_markup
+from AdvayxMusic.utils.decorators import AdminActual, language
+from AdvayxMusic.utils.inline import close_markup
 from config import BANNED_USERS, adminlist
 
 

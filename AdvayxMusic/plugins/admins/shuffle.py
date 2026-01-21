@@ -3,10 +3,10 @@ import random
 from pyrogram import filters
 from pyrogram.types import Message
 
-from SHUKLAMUSIC import app
-from SHUKLAMUSIC.misc import db
-from SHUKLAMUSIC.utils.decorators import AdminRightsCheck
-from SHUKLAMUSIC.utils.inline import close_markup
+from AdvayxMusic import app
+from AdvayxMusic.misc import db
+from AdvayxMusic.utils.decorators import AdminRightsCheck
+from AdvayxMusic.utils.inline import close_markup
 from config import BANNED_USERS
 
 

@@ -1,6 +1,6 @@
 from typing import Union
-from SHUKLAMUSIC import app
-from SHUKLAMUSIC.utils.formatters import time_to_seconds
+from AdvayxMusic import app
+from AdvayxMusic.utils.formatters import time_to_seconds
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 

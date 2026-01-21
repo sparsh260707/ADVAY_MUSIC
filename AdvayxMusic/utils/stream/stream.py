@@ -5,15 +5,15 @@ from typing import Union
 from pyrogram.types import InlineKeyboardMarkup
 
 import config
-from SHUKLAMUSIC import Carbon, YouTube, app
-from SHUKLAMUSIC.core.call import SHUKLA
-from SHUKLAMUSIC.misc import db
-from SHUKLAMUSIC.utils.database import add_active_video_chat, is_active_chat
-from SHUKLAMUSIC.utils.exceptions import AssistantErr
-from SHUKLAMUSIC.utils.inline import aq_markup, close_markup, stream_markup
-from SHUKLAMUSIC.utils.pastebin import SHUKLABin
-from SHUKLAMUSIC.utils.stream.queue import put_queue, put_queue_index
-from SHUKLAMUSIC.utils.thumbnails import get_thumb
+from AdvayxMusic import Carbon, YouTube, app
+from AdvayxMusic.core.call import SHUKLA
+from AdvayxMusic.misc import db
+from AdvayxMusic.utils.database import add_active_video_chat, is_active_chat
+from AdvayxMusic.utils.exceptions import AssistantErr
+from AdvayxMusic.utils.inline import aq_markup, close_markup, stream_markup
+from AdvayxMusic.utils.pastebin import SHUKLABin
+from AdvayxMusic.utils.stream.queue import put_queue, put_queue_index
+from AdvayxMusic.utils.thumbnails import get_thumb
 
 
 async def stream(

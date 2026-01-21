@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from SHUKLAMUSIC import app
-from SHUKLAMUSIC.core.call import SHUKLA
-from SHUKLAMUSIC.utils.database import set_loop
-from SHUKLAMUSIC.utils.decorators import AdminRightsCheck
-from SHUKLAMUSIC.utils.inline import close_markup
+from AdvayxMusic import app
+from AdvayxMusic.core.call import SHUKLA
+from AdvayxMusic.utils.database import set_loop
+from AdvayxMusic.utils.decorators import AdminRightsCheck
+from AdvayxMusic.utils.inline import close_markup
 from config import BANNED_USERS
 
 

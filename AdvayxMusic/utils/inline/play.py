@@ -1,8 +1,8 @@
 import math
 from pyrogram.types import InlineKeyboardButton
-from SHUKLAMUSIC import app
+from AdvayxMusic import app
 import config
-from SHUKLAMUSIC.utils.formatters import time_to_seconds
+from AdvayxMusic.utils.formatters import time_to_seconds
 
 
 def track_markup(_, videoid, user_id, channel, fplay):

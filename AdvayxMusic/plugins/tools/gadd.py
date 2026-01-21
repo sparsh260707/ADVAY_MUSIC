@@ -1,8 +1,8 @@
 import asyncio
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
-from SHUKLAMUSIC import app
-from SHUKLAMUSIC.utils.database import add_served_chat, get_assistant, booster
+from AdvayxMusic import app
+from AdvayxMusic.utils.database import add_served_chat, get_assistant, booster
 
 OWNERS = "6919199044"
 

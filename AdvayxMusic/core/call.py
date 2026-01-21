@@ -17,9 +17,9 @@ from pytgcalls.types.input_stream.quality import HighQualityAudio, MediumQuality
 from pytgcalls.types.stream import StreamAudioEnded
 
 import config
-from SHUKLAMUSIC import LOGGER, YouTube, app
-from SHUKLAMUSIC.misc import db
-from SHUKLAMUSIC.utils.database import (
+from AdvayxMusic import LOGGER, YouTube, app
+from AdvayxMusic.misc import db
+from AdvayxMusic.utils.database import (
     add_active_chat,
     add_active_video_chat,
     get_lang,
@@ -31,11 +31,11 @@ from SHUKLAMUSIC.utils.database import (
     remove_active_video_chat,
     set_loop,
 )
-from SHUKLAMUSIC.utils.exceptions import AssistantErr
-from SHUKLAMUSIC.utils.formatters import check_duration, seconds_to_min, speed_converter
-from SHUKLAMUSIC.utils.inline.play import stream_markup
-from SHUKLAMUSIC.utils.stream.autoclear import auto_clean
-from SHUKLAMUSIC.utils.thumbnails import get_thumb
+from AdvayxMusic.utils.exceptions import AssistantErr
+from AdvayxMusic.utils.formatters import check_duration, seconds_to_min, speed_converter
+from AdvayxMusic.utils.inline.play import stream_markup
+from AdvayxMusic.utils.stream.autoclear import auto_clean
+from AdvayxMusic.utils.thumbnails import get_thumb
 from strings import get_string
 
 autoend = {}

@@ -1,13 +1,13 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from SHUKLAMUSIC import app
-from SHUKLAMUSIC.core.call import SHUKLA
-from SHUKLAMUSIC.misc import SUDOERS, db
-from SHUKLAMUSIC.utils import AdminRightsCheck
-from SHUKLAMUSIC.utils.database import is_active_chat, is_nonadmin_chat
-from SHUKLAMUSIC.utils.decorators.language import languageCB
-from SHUKLAMUSIC.utils.inline import close_markup, speed_markup
+from AdvayxMusic import app
+from AdvayxMusic.core.call import SHUKLA
+from AdvayxMusic.misc import SUDOERS, db
+from AdvayxMusic.utils import AdminRightsCheck
+from AdvayxMusic.utils.database import is_active_chat, is_nonadmin_chat
+from AdvayxMusic.utils.decorators.language import languageCB
+from AdvayxMusic.utils.inline import close_markup, speed_markup
 from config import BANNED_USERS, adminlist
 
 checker = []

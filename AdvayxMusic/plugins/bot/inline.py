@@ -5,8 +5,8 @@ from pyrogram.types import (
 )
 from youtubesearchpython.__future__ import VideosSearch
 
-from SHUKLAMUSIC import app
-from SHUKLAMUSIC.utils.inlinequery import answer
+from AdvayxMusic import app
+from AdvayxMusic.utils.inlinequery import answer
 from config import BANNED_USERS
 
 

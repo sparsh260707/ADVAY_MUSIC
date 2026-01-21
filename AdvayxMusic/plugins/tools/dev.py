@@ -10,7 +10,7 @@ from time import time
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-from SHUKLAMUSIC import app
+from AdvayxMusic import app
 from config import OWNER_ID
 
 

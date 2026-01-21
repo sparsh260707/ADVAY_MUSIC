@@ -3,10 +3,10 @@ import asyncio
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from SHUKLAMUSIC import YouTube, app
-from SHUKLAMUSIC.core.call import SHUKLA
-from SHUKLAMUSIC.misc import SUDOERS, db
-from SHUKLAMUSIC.utils.database import (
+from AdvayxMusic import YouTube, app
+from AdvayxMusic.core.call import SHUKLA
+from AdvayxMusic.misc import SUDOERS, db
+from AdvayxMusic.utils.database import (
     get_active_chats,
     get_lang,
     get_upvote_count,
@@ -17,11 +17,11 @@ from SHUKLAMUSIC.utils.database import (
     music_on,
     set_loop,
 )
-from SHUKLAMUSIC.utils.decorators.language import languageCB
-from SHUKLAMUSIC.utils.formatters import seconds_to_min
-from SHUKLAMUSIC.utils.inline import close_markup, stream_markup, stream_markup_timer
-from SHUKLAMUSIC.utils.stream.autoclear import auto_clean
-from SHUKLAMUSIC.utils.thumbnails import get_thumb
+from AdvayxMusic.utils.decorators.language import languageCB
+from AdvayxMusic.utils.formatters import seconds_to_min
+from AdvayxMusic.utils.inline import close_markup, stream_markup, stream_markup_timer
+from AdvayxMusic.utils.stream.autoclear import auto_clean
+from AdvayxMusic.utils.thumbnails import get_thumb
 from config import (
     BANNED_USERS,
     SOUNCLOUD_IMG_URL,

@@ -1,9 +1,9 @@
 from pyrogram import filters
 
-from SHUKLAMUSIC import YouTube, app
-from SHUKLAMUSIC.utils.channelplay import get_channeplayCB
-from SHUKLAMUSIC.utils.decorators.language import languageCB
-from SHUKLAMUSIC.utils.stream.stream import stream
+from AdvayxMusic import YouTube, app
+from AdvayxMusic.utils.channelplay import get_channeplayCB
+from AdvayxMusic.utils.decorators.language import languageCB
+from AdvayxMusic.utils.stream.stream import stream
 from config import BANNED_USERS
 
 

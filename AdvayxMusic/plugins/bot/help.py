@@ -3,11 +3,11 @@ from typing import Union
 from pyrogram import filters, types
 from pyrogram.types import InlineKeyboardMarkup, Message
 
-from SHUKLAMUSIC import app
-from SHUKLAMUSIC.utils import help_pannel
-from SHUKLAMUSIC.utils.database import get_lang
-from SHUKLAMUSIC.utils.decorators.language import LanguageStart, languageCB
-from SHUKLAMUSIC.utils.inline.help import help_back_markup, private_help_panel
+from AdvayxMusic import app
+from AdvayxMusic.utils import help_pannel
+from AdvayxMusic.utils.database import get_lang
+from AdvayxMusic.utils.decorators.language import LanguageStart, languageCB
+from AdvayxMusic.utils.inline.help import help_back_markup, private_help_panel
 from config import BANNED_USERS, START_IMG_URL, SUPPORT_CHAT
 from strings import get_string, helpers
 

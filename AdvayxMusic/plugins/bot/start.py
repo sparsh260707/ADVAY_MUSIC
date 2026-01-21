@@ -6,10 +6,10 @@ from pyrogram.enums import ChatType, ChatMembersFilter
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from youtubesearchpython.__future__ import VideosSearch
 import config
-from SHUKLAMUSIC import app
-from SHUKLAMUSIC.misc import _boot_
-from SHUKLAMUSIC.plugins.sudo.sudoers import sudoers_list
-from SHUKLAMUSIC.utils.database import (
+from AdvayxMusic import app
+from AdvayxMusic.misc import _boot_
+from AdvayxMusic.plugins.sudo.sudoers import sudoers_list
+from AdvayxMusic.utils.database import (
     add_served_chat,
     add_served_user,
     blacklisted_chats,
@@ -18,9 +18,9 @@ from SHUKLAMUSIC.utils.database import (
     is_on_off,
     connect_to_chat,
 )
-from SHUKLAMUSIC.utils.decorators.language import LanguageStart
-from SHUKLAMUSIC.utils.formatters import get_readable_time
-from SHUKLAMUSIC.utils.inline import help_pannel, private_panel, start_panel
+from AdvayxMusic.utils.decorators.language import LanguageStart
+from AdvayxMusic.utils.formatters import get_readable_time
+from AdvayxMusic.utils.inline import help_pannel, private_panel, start_panel
 from config import BANNED_USERS
 from strings import get_string
 

@@ -2,9 +2,9 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter, ChatMemberStatus, ChatType
 from pyrogram.types import Message
 
-from SHUKLAMUSIC import app
-from SHUKLAMUSIC.utils.database import set_cmode
-from SHUKLAMUSIC.utils.decorators.admins import AdminActual
+from AdvayxMusic import app
+from AdvayxMusic.utils.database import set_cmode
+from AdvayxMusic.utils.decorators.admins import AdminActual
 from config import BANNED_USERS
 
 

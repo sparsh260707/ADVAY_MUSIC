@@ -6,22 +6,22 @@ from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from SHUKLAMUSIC import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from SHUKLAMUSIC.core.call import SHUKLA
-from SHUKLAMUSIC.utils import seconds_to_min, time_to_seconds
-from SHUKLAMUSIC.utils.channelplay import get_channeplayCB
-from SHUKLAMUSIC.utils.decorators.language import languageCB
-from SHUKLAMUSIC.utils.decorators.play import PlayWrapper
-from SHUKLAMUSIC.utils.formatters import formats
-from SHUKLAMUSIC.utils.inline import (
+from AdvayxMusic import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
+from AdvayxMusic.core.call import SHUKLA
+from AdvayxMusic.utils import seconds_to_min, time_to_seconds
+from AdvayxMusic.utils.channelplay import get_channeplayCB
+from AdvayxMusic.utils.decorators.language import languageCB
+from AdvayxMusic.utils.decorators.play import PlayWrapper
+from AdvayxMusic.utils.formatters import formats
+from AdvayxMusic.utils.inline import (
     botplaylist_markup,
     livestream_markup,
     playlist_markup,
     slider_markup,
     track_markup,
 )
-from SHUKLAMUSIC.utils.logger import play_logs
-from SHUKLAMUSIC.utils.stream.stream import stream
+from AdvayxMusic.utils.logger import play_logs
+from AdvayxMusic.utils.stream.stream import stream
 from config import BANNED_USERS, lyrical
 
 
