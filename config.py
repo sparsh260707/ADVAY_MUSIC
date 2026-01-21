@@ -30,13 +30,13 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 # Git
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/itzshukla/SenoritaMusic")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/sparsh260707/ADVAY_MUSIC")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Support
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ITSZSHUKLA")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/MASTIWITHFRIENDSXD")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/codebotnetwork")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+7wa7gsmeeusxMmE1")
 
 # YT-API Get from @AmShashank on tg
 API_KEY = getenv("API_KEY", "")
@@ -82,18 +82,18 @@ DEBUG_IGNORE_LOG = True
 
 ###### IMAGE URLS ######
 
-START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/t18g0v.jpg")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://files.catbox.moe/t18g0v.jpg")
-PLAYLIST_IMG_URL = "https://files.catbox.moe/t18g0v.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/t18g0v.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/13afb9ee5c5da17930f1e.png"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/13afb9ee5c5da17930f1e.png"
-STREAM_IMG_URL = "https://telegra.ph/file/03efec694e41e891b29dc.jpg"
-SOUNCLOUD_IMG_URL = "https://telegra.ph/file/d723f4c80da157fca1678.jpg"
-YOUTUBE_IMG_URL = "https://telegra.ph/file/4dc854f961cd3ce46899b.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/d723f4c80da157fca1678.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/6c741a6bc1e1663ac96fc.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/6c741a6bc1e1663ac96fc.jpg"
+START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/b5np99.jpg")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://files.catbox.moe/b5np99.jpg")
+PLAYLIST_IMG_URL = "https://files.catbox.moe/b5np99.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/b5np99.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/b5np99.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/b5np99.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/b5np99.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/b5np99.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/b5np99.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/b5np99.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/b5np99.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/b5np99.jpg"
 
 # Helper function
 def time_to_seconds(time: str) -> int:
